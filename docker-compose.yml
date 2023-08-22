@@ -32,4 +32,6 @@ services:
 
 volumes:
   grafana-storage:
+    driver: replicated
   influxdb-storage:
+    driver: replicated
